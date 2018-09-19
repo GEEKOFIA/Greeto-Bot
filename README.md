@@ -1,7 +1,8 @@
-# Greeto
-A simple greeter bot for Discord.
 
 ![discord](https://image.ibb.co/hy917K/GREETO_ROUND_EMBER.png)
+
+# Greeto
+A simple greeter bot for Discord.
 
 # Prerequisites
 
@@ -16,4 +17,5 @@ A simple greeter bot for Discord.
 # Running Server
 
 Run the command from the project root directory `node bot.js`
+
 *Note:Whenever this serevr is down/offline the bot will be offline as well.*
