@@ -40,12 +40,22 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 bot.sendMessage({ to: channelID, message: 'Pong!' });
             break;
 			case 'nishant':
+			case 'Nishant':
 				bot.sendMessage({ to: channelID, message: 'Chutiya Hey !' });
+			break;
+			case 'pavel':
+			case 'Hunter':
+			case 'hunter':
+				bot.sendMessage({ to: channelID, message: 'Wahi Nishant Chutiya He Hey !' });
 			break;
 			case 'rajmani':
 				bot.sendMessage({ to: channelID, message: 'Bhai Hey !' });
 			break;
+			case 'Geekofia':
+			case 'GEEKOFIA':
 			case 'geekofia':
+			case 'Chandu':
+			case 'chandu':
 				bot.sendMessage({ to: channelID, message: 'Mera Baap Hey !' });
 			break;
 			case 'rishu':
@@ -53,6 +63,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			break;
 			case 'sidpan':
 				bot.sendMessage({ to: channelID, message: 'Ameer Hey !' });
+			break;
+			case 'kaddu':
+			case 'priyanshu':
+			case 'Kaddu':
+			case 'Priyanshu':
+				bot.sendMessage({ to: channelID, message: 'LOL Hey !' });
 			break;
             default:
                 bot.sendMessage({ to: channelID, message: 'Unknown command.' });
