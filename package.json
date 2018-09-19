@@ -1,0 +1,13 @@
+{
+  "name": "Greeto",
+  "version": "1.0.0",
+  "description": "Greeter bot developed by GEEKOFIA",
+  "main": "bot.js",
+  "repository": "git@github.com:GEEKOFIA/Greeto.git",
+  "author": "GEEKOFIA",
+  "license": "MIT",
+  "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "winston": "^2.4.4"
+  }
+}
